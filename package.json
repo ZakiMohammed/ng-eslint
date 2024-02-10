@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "lint-html": "ng lint > lint-report.html --format html --silent"
+    "lint:txt": "ng lint > lint-report.txt --silent",
+    "lint:html": "ng lint > lint-report.html --format html --silent",
+    "lint:json": "ng lint > lint-report.json --format json --silent"
   },
   "private": true,
   "dependencies": {

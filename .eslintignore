@@ -1,2 +1,5 @@
-lint-*
 package.json
+package-lock.json
+dist
+/.angular/cache
+lint-*
